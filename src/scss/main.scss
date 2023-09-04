@@ -191,7 +191,7 @@
   65% {
     left: 59%;
     -o-transform: rotate(0deg);
-    transICONSform: rotate(0deg);
+    transiconsform: rotate(0deg);
     opacity: 1;
   }
 
@@ -295,6 +295,7 @@ header {
     }
 
     .intro-screen {
+      transform: translateY(40%);
       padding-block: 4em;
       text-align: center;
     }
@@ -445,12 +446,12 @@ header {
       display: block;
       margin: 0;
       width: 100%;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
         url(../../assets/images/about-me.jpg);
       background-position: center;
       background-size: cover;
       text-align: center;
-      padding: 100px 0;
+      // padding: 100px 0;
     }
 
     .about-text {
@@ -458,6 +459,10 @@ header {
       width: 70%;
       margin: auto;
       float: none;
+
+      p {
+        line-height: 2.5;
+      }
     }
   }
 }
