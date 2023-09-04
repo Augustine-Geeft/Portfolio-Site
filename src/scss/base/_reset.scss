@@ -1,0 +1,50 @@
+@use "../abstracts/fonts" as *;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  // font: inherit;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  color: #f3eded;
+  background-color: #000;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+a {
+  text-decoration: none;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 {
+//   font-family: $ff-main;
+// }
+

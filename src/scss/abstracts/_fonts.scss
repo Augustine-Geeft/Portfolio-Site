@@ -1,0 +1,97 @@
+$ff-main: Ceviche;
+$ff-secondary: Right-Grotesk-Compact;
+$ff-alternative3: Far-Out;
+$ff-alternative4: Lato;
+$ff-alternative5: Montserrat;
+$ff-alternative6: Right-Grotesk;
+
+
+$fs-1: 12px;
+$fs-2: 14px;
+$fs-3: 16px;
+$fs-4: 20px;
+$fs-5: 30px;
+$fs-6: 40px;
+$fs-7: 50px;
+$fs-8: 70px;
+$fs-9: 120px;
+$fs-10: 200px;
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+@font-face {
+  font-family: Muifenoll;
+  src: url(../../../assets/fonts/Muifenoll.ttf);
+}
+
+@font-face {
+  font-family: ReliefGrotesk;
+  src: url(../../../assets/fonts/RightGrotesk-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ceviche;
+  src: url(../../../assets/fonts/CevicheOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Far-Out;
+  src: url(../../../assets/fonts/FarOut.woff);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../../../assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Right-Grotesk;
+  src: url(../../../assets/fonts/RightGrotesk-TightMedium.otf);
+}
+
+@font-face {
+  font-family: Right-Grotesk-Compact;
+  src: url(../../../assets/fonts/RightGrotesk-CompactBlack.otf);
+}
+
+// .fs-primary-heading {
+//   font-size: $fs-1000;
+// }
+
+.fs-secondary-heading {
+  // font-size: $fs-900;
+  font-weight: $fw-medium;
+}
+
+.fs-secondary-heading-top {
+  // font-size: $fs-400;
+  font-weight: $fw-medium;
+  font-family: $ff-secondary;
+  color: rgba(#000, 0.7);
+  line-height: 1.5em;
+}
+
+.fs-btn {
+  width: fit-content;
+  font-size: $fs-1;
+  font-family: $ff-secondary;
+  font-weight: $fw-semi-bold;
+  margin-top: 1em;
+  margin-right: 0.5em;
+  padding: 1.2em 1.5em;
+  border: 0;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 30px rgba(#000, 0.1);
+  transition: ease 200ms;
+  cursor: pointer;
+}

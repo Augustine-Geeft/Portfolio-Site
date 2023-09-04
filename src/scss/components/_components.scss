@@ -1,0 +1,21 @@
+@use "../abstracts/fonts" as *;
+
+.container {
+  $max-width: 1440px;
+  $padding: 1rem;
+  width: 100%;
+  max-width: min($max-width, (100% - $padding) * 2);
+  margin-inline: auto;
+}
+
+.paddedSection {
+  padding-inline: 8em;
+}
+
+// .section-header {
+//   text-align: center;
+//   font-size: $fs-8;
+//   font-family: $ff-alternative6;
+//   letter-spacing: 3px;
+//   padding-block: 1em;
+// }
