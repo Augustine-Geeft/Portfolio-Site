@@ -1,34 +1,34 @@
 @font-face {
   font-family: Muifenoll;
-  src: url(../../../assets/fonts/Muifenoll.ttf);
+  src: url(../../src/scss/abstracts/fonts/Muifenoll.ttf);
 }
 @font-face {
   font-family: ReliefGrotesk;
-  src: url(../../../assets/fonts/RightGrotesk-Bold.ttf);
+  src: url(../../src/scss/abstracts/fonts/ReliefGrotesk.ttf);
 }
 @font-face {
   font-family: Ceviche;
-  src: url(../../../assets/fonts/CevicheOne-Regular.ttf);
+  src: url(../../src/scss/abstracts/fonts/CevicheOne-Regular.ttf);
 }
 @font-face {
   font-family: Far-Out;
-  src: url(../../../assets/fonts/FarOut.woff);
+  src: url(../../src/scss/abstracts/fonts/FarOut.woff);
 }
 @font-face {
   font-family: Lato;
-  src: url(../../../assets/fonts/Lato-Black.ttf);
+  src: url(../../src/scss/abstracts/fonts/Lato-Black.ttf);
 }
 @font-face {
   font-family: Montserrat;
-  src: url(../../../assets/fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(../../src/scss/abstracts/fonts/Montserrat-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Right-Grotesk;
-  src: url(../../../assets/fonts/RightGrotesk-TightMedium.otf);
+  src: url(../../src/scss/abstracts/fonts/RightGrotesk-TightMedium.otf);
 }
 @font-face {
   font-family: Right-Grotesk-Compact;
-  src: url(../../../assets/fonts/RightGrotesk-CompactBlack.otf);
+  src: url(../../src/scss/abstracts/fonts/RightGrotesk-CompactBlack.otf);
 }
 .fs-secondary-heading {
   font-weight: 500;
